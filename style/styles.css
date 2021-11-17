@@ -3,20 +3,28 @@
   }
   
   body {
-    font-family: Arial;
+    font-family: 'Lato', Arial;
     padding: 10px;
     background: #f1f1f1;
   }
   
   /* Header/Blog Title */
   .header {
-    padding: 30px;
+    padding: 100px;
     text-align: center;
     background: white;
+    background-image:url("../img/background.png");
   }
   
   .header h1 {
-    font-size: 50px;
+    font-family: 'Comforter Brush', 'Lato', Arial;
+    font-size: 100px;
+    color: white
+  }
+  
+  .subtitle {
+    color: white;
+    font-size: 25px;
   }
   
   /* Style the top navigation bar */
@@ -69,6 +77,13 @@
     padding: 20px;
   }
   
+  .profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+  
   /* Add a card effect for articles */
   .card {
     background-color: white;
@@ -96,6 +111,8 @@
     background-image: url(../img/bigO/pic01.png);
     display: block;
     background-size: cover;
+    /*opacity: 0.5;*/
+    /*box-shadow: 0 3000px #005ca788 inset;*/
   }
 
   .thumbnail2 {
