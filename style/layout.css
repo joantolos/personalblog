@@ -8,7 +8,7 @@
     background: #f1f1f1;
   }
 
-  .header {
+  header {
     padding: 100px;
     text-align: center;
     background: white;
@@ -18,7 +18,7 @@
     background-size: cover;
   }
   
-  .header h1 {
+  header h1 {
     font-family: 'Comforter Brush', 'Lato', Arial;
     font-size: 100px;
     color: white
@@ -30,7 +30,7 @@
   }
   
   /* Style the top navigation bar */
-  .navbar {
+  nav {
     overflow: hidden;
     background-color: #333;
     top: 0;
@@ -38,7 +38,7 @@
   }
   
   /* Style the topnav links */
-  .navbar a {
+  nav a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -48,7 +48,7 @@
   }
   
   /* Change color on hover */
-  .navbar a:hover {
+  nav a:hover {
     background-color: #ddd;
     color: black;
   }
@@ -76,7 +76,7 @@
   }
   
   /* Footer */
-  .footer {
+  footer {
     padding: 20px;
     background: #ddd;
     margin-top: 20px;
