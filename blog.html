@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Joan Tolós</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+</head>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Lato', Arial;
+    background: #f1f1f1;
+    margin: 0;
+  }
+  
+  /* Style the top navigation bar */
+  nav {
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    position: sticky;
+  }
+  
+  /* Style the topnav links */
+  nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 21px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 20px;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .rightcolumn, .leftcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .nav a {
+      float: none;
+      width: 100%;
+    }
+    article {
+      background-color: white;
+      padding: 20px;
+    }
+  }
+
+  content {
+    margin: 100;
+  }
+
+  .profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+  }
+
+  /* Add a card effect for articles */
+  article {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 20px 0px 20px;
+    /*margin: top right bottom left*/
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+	  border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+  
+  /* Clear floats after the columns */
+  main:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .thumbnail1 {
+    height: 200px;
+    background-image: url(../img/bigO/pic01.png);
+    display: block;
+    background-size: cover;
+    /*opacity: 0.5;*/
+    /*box-shadow: 0 3000px #005ca788 inset;*/
+  }
+
+  .thumbnail2 {
+    height: 200px;
+    background-image: url(../img/restAPI/pic01.png);
+    display: block;
+    background-size: cover;
+  }
+
+  .thumbnail3 {
+    height: 200px;
+    background-image: url(../img/kotlinRestAPI/pic01.png);
+    display: block;
+    background-size: cover;
+  }
+
+  .thumbnail4 {
+    height: 200px;
+    background-image: url(../img/overridePolymorphism/pic01.png);
+    display: block;
+    background-size: cover;
+  }
+</style>
+<body>
+
+<nav>
+  <a class="active" href="home.html">Joan Tolós</a>
+  <a href="blog.html">BLOG</a>
+  <a href="podcast.html">PODCAST</a>
+  <a href="https://shop.spreadshirt.es/nadanuevobajoelsol" target="_blank">STORE</a>
+  <a href="about.html">ABOUT</a>
+  <a href="contact.html">CONTACT</a>
+</nav>
+
+<content id="blog">
+    <main>
+        <div class="leftcolumn">
+          <article>
+            <h2>BIG O NOTATION AND ASYMPTOTIC COMPLEXITY</h2>
+            <h5>A basic knowledge for a day to day developer, Nov 9, 2021</h5>
+            <div class="thumbnail1"></div>  
+            <p>Let’s say we want to go from Paris to Amsterdam and I ask you for an algorithm to solve that problem. The problem being I need to go from point A to point B. You can answer… “well, you take a plane”. Ok, a little more specific… “You take your car from your home to the airport, then take a plane, and when in Paris, rent a car from the airport to the hotel”.</p>
+            <p>continue reading</p>
+          </article>
+          <article>
+            <h2>WHAT IS A REST API</h2>
+            <h5>Definition and examples, Oct 14, 2021</h5>
+            <div class="thumbnail2"></div>
+            <p>The simple (obvious and absurd) answer to the question “what is a REST API?" would be: It is an API that conforms to the REST architectural style. The proper follow up questions of course are: what is an API and what is the REST architectural style. If you know the conventions of REST and what are the main characteristics of an API you can deduce your own answer. So, let’s dig in</p>
+            <p>continue reading</p>
+          </article>
+          <article>
+            <h2>REST API SEED WITH KOTLIN AND SPRING</h2>
+            <h5>Using Kotlin and Spring to build a REST API, Sept 2, 2021</h5>
+            <div class="thumbnail3"></div>
+            <p>I have been wanting to use Kotlin for a while now. Some colleges that I deeply respect don’t stop recommending it and I finally allocated some time to play around a little bit. To test this new language (new to me, anyway) I want to try and implement something familiar to me so I don’t have to bother with the domain or anything. I am going to implement the same REST API that I did with Java sometime ago.</p>
+            <p>continue reading</p>
+          </article>
+          <article>
+            <h2>OVERRIDE POLYMORPHISM AND FACTORY PATTERN WITH TYPESCRIPT</h2>
+            <h5>An example with code for both techniques implemented, Aug 12, 2021</h5>
+            <div class="thumbnail4"></div>
+            <p>I have been wanting to use Kotlin for a while now. Some colleges that I deeply respect don’t stop recommending it and I finally allocated some time to play around a little bit. To test this new language (new to me, anyway) I want to try and implement something familiar to me so I don’t have to bother with the domain or anything. I am going to implement the same REST API that I did with Java sometime ago.</p>
+            <p>continue reading</p>
+          </article>
+        </div>
+        <div class="rightcolumn">
+          <article>
+            <h2>About Me</h2>
+            <img class="profile" src="img/profile2021.png">
+          </article>
+          <article>
+            <h2>Popular Posts</h3>
+            <div class="fakeimg"><p>Image</p></div>
+            <div class="fakeimg"><p>Image</p></div>
+            <div class="fakeimg"><p>Image</p></div>
+          </article>
+          <article>
+            <h2>Follow Me</h3>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-youtube"></a>
+          </div>
+        </div>
+    </main>
+</content>
+
+<footer>
+  <p>copyright &copy; 2021 Joan Tolós. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
+
