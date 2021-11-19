@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <title>Joan Tolós</title>
@@ -8,8 +9,10 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comforter+Brush">
 </head>
+
 <style>
-  body, html {
+  body,
+  html {
     height: 100%;
     margin: 0;
     font-family: 'Lato', Arial;
@@ -20,19 +23,19 @@
     height: 100%;
     text-align: center;
     position: relative;
-    background-image:url("../img/joan2021_bg.png");
+    background-image: url("../img/joan2021_bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+
   /* Style the top navigation bar */
   nav {
     overflow: hidden;
     background-color: #333;
     top: 0;
   }
-  
+
   /* Style the topnav links */
   nav a {
     float: left;
@@ -42,13 +45,13 @@
     padding: 14px 21px;
     text-decoration: none;
   }
-  
+
   /* Change color on hover */
   nav a:hover {
     background-color: #ddd;
     color: black;
   }
-  
+
   /* Footer */
   footer {
     padding: 20px;
@@ -68,14 +71,40 @@
     padding-left: 10%;
     padding-right: 50%;
     text-align: left;
-    line-height : 30px;
+    line-height: 30px;
     font-size: 20px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .myLinks {
+    display: none;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+  }
+
+  .myLinks a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 21px;
+    text-decoration: none;
+  }
+
+  .myLinks a:hover {
+    background-color: #ddd;
+    color: black;
   }
 
   @media screen and (max-width: 768px) {
     .bg {
-      background-image:url("../img/joan2021_bg_small.png");
+      background-image: url("../img/joan2021_bg_small.png");
     }
+
     .title {
       padding-top: 5%;
       padding-left: 0;
@@ -85,45 +114,80 @@
       font-size: 60px;
     }
 
-  .subtitle {
+    .subtitle {
       padding-left: 15%;
       padding-right: 10%;
       text-align: left;
-      line-height : 30px;
+      line-height: 30px;
       font-size: 15px;
+    }
+
+    nav a {
+      float: right;
+    }
+
+    .hamburger {
+      display: block;
+    }
+
+    .menu {
+      display: none;
+    }
+
+    .myLinks {
+      display: none;
     }
   }
 </style>
+
 <body>
 
-<!-- nav id="big">
-  <a href="blog.html">BLOG</a>
-  <a href="podcast.html">PODCAST</a>
-  <a href="https://shop.spreadshirt.es/nadanuevobajoelsol" target="_blank">STORE</a>
-  <a href="about.html">ABOUT</a>
-  <a href="contact.html">CONTACT</a>
-</nav -->
+  <nav class="menu">
+    <a href="blog.html">BLOG</a>
+    <a href="podcast.html">PODCAST</a>
+    <a href="https://shop.spreadshirt.es/nadanuevobajoelsol" target="_blank">STORE</a>
+    <a href="about.html">ABOUT</a>
+    <a href="contact.html">CONTACT</a>
+  </nav>
 
-<nav id="small">
-  <a href="home.html">Joan Tolós</a>
-  <a href="blog.html">BLOG</a>
-</nav>
+  <nav class="hamburger">
+    <a href="javascript:void(0);" class="icon" onclick="openMenu()">
+      <i style="text-align: right;" class="fa fa-bars"></i>
+    </a>
+  </nav>
 
-<div class="bg">
-  <div class="title">Joan Tolós</div>
-  <div class="subtitle">Hey, welcome to my site. I am passionate about programming and technology. Take a look to my latest blog post or podcast episode.</div>
-</div>
+  <div id="myLinks" class="myLinks">
+    <a href="blog.html">BLOG</a>
+    <a href="podcast.html">PODCAST</a>
+    <a href="https://shop.spreadshirt.es/nadanuevobajoelsol" target="_blank">STORE</a>
+    <a href="about.html">ABOUT</a>
+    <a href="contact.html">CONTACT</a>
+  </div>
 
-<footer>
+  <div class="bg">
+    <div class="title">Joan Tolós</div>
+    <div class="subtitle">Hey, welcome to my site. I am passionate about programming and technology. Take a look to my
+      latest blog post or podcast episode.</div>
+  </div>
+
+  <footer>
     <p>copyright &copy; 2021 Joan Tolós. All rights reserved.</p>
-</footer>
+  </footer>
 
 </body>
+
 </html>
 <script>
   window.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM fully loaded and parsed');
-});
+  });
+
+  function openMenu() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
 </script>
-
-
