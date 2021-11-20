@@ -79,28 +79,30 @@
     display: none;
   }
 
-  .myLinks {
+  .links {
     display: none;
-    overflow: hidden;
     background-color: #333;
-    top: 0;
+    position: absolute;
+    top: 29px;
+    height: 170px;
+    width: 150%;
+    z-index: 99;
   }
 
-  .myLinks a {
-    float: left;
+  .links a {
     display: block;
     color: #f2f2f2;
-    text-align: center;
-    padding: 14px 21px;
+    text-align: left;
+    padding: 5px 21px;
     text-decoration: none;
   }
 
-  .myLinks a:hover {
+  .links a:hover {
     background-color: #ddd;
     color: black;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1000px) {
     .bg {
       background-image: url("../img/joan2021_bg_small.png");
     }
@@ -124,6 +126,7 @@
 
     nav a {
       float: right;
+      padding: 5px 21px;
     }
 
     .hamburger {
@@ -134,7 +137,7 @@
       display: none;
     }
 
-    .myLinks {
+    .links {
       display: none;
     }
   }
@@ -156,7 +159,7 @@
     </a>
   </nav>
 
-  <div id="myLinks" class="myLinks">
+  <div id="links" class="links">
     <a href="blog.html">BLOG</a>
     <a href="podcast.html">PODCAST</a>
     <a href="https://shop.spreadshirt.es/nadanuevobajoelsol" target="_blank">STORE</a>
@@ -178,16 +181,13 @@
 
 </html>
 <script>
-  window.addEventListener('DOMContentLoaded', (event) => {
-    console.log('DOM fully loaded and parsed');
-  });
-
   function openMenu() {
-    var x = document.getElementById("myLinks");
+    var x = document.getElementById("links");
     if (x.style.display === "block") {
       x.style.display = "none";
     } else {
       x.style.display = "block";
     }
   }
+
 </script>
