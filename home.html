@@ -90,6 +90,11 @@
       0%{height:0px}
     }
 
+    @keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+
     .bg {
       background-image: url("../img/joan2021_bg_small.png");
     }
@@ -124,6 +129,7 @@
     }
 
     .links {
+      display: none;
       background-color: #333;
       position: absolute;
       top: 44px;
@@ -139,6 +145,7 @@
       text-align: center;
       padding: 14px 60px;
       text-decoration: none;
+      animation: fadein 1s;
     }
 
     .links a:hover {
