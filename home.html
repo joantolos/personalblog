@@ -5,9 +5,12 @@
   <meta charset="UTF-8">
   <title>Joan Tolós</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript" src="/scripts/menu.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comforter+Brush">
+  <link rel="stylesheet" href="/styles/menu.css">
+  <link rel="stylesheet" href="/styles/site.css">
 </head>
 
 <style>
@@ -29,30 +32,6 @@
     background-size: cover;
   }
 
-  /* Style the top navigation bar */
-  nav {
-    overflow: hidden;
-    background-color: #333;
-    top: 0;
-  }
-
-  /* Style the topnav links */
-  nav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 21px;
-    text-decoration: none;
-  }
-
-  /* Change color on hover */
-  nav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  /* Footer */
   footer {
     padding: 20px;
     background: #ddd;
@@ -75,26 +54,7 @@
     font-size: 20px;
   }
 
-  .hamburger {
-    display: none;
-  }
-
-  .links {
-    display: none;
-  }
-
   @media screen and (max-width: 1000px) {
-
-    @keyframes expand {
-      0%{height:0px}
-      0%{height:0px}
-    }
-
-    @keyframes fadein {
-      from { opacity: 0; }
-      to   { opacity: 1; }
-    }
-
     .bg {
       background-image: url("../img/joan2021_bg_small.png");
     }
@@ -115,49 +75,6 @@
       line-height: 30px;
       font-size: 15px;
     }
-
-    nav a {
-      float: right;
-    }
-
-    .hamburger {
-      display: block;
-    }
-
-    .menu {
-      display: none;
-    }
-
-    .links {
-      display: none;
-      background-color: #333;
-      position: absolute;
-      top: 44px;
-      height: 250px;
-      width: 100%;
-      z-index: 99;
-      animation: expand 0.5s;
-    }
-
-    .links a {
-      display: block;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 60px;
-      text-decoration: none;
-      animation: fadein 1s;
-    }
-
-    .links a:hover {
-      background-color: #ddd;
-      color: black;
-    }
-
-    nav a:hover {
-      background-color: #333;
-      color: #f2f2f2;
-    }
-
   }
 </style>
 
@@ -172,7 +89,7 @@
   </nav>
 
   <nav class="hamburger">
-    <a href="javascript:void(0);" class="icon" onclick="openMenu()">
+    <a href="javascript:void(0);" class="icon" onclick="openHamburguerMenu()">
       <i id = "hamburger-icon" style="text-align: right; display: block" class="fa fa-bars"></i>
       <i id = "hamburger-close" style="text-align: right; display: none" class="fa fa-times"></i>
     </a>
@@ -199,28 +116,3 @@
 </body>
 
 </html>
-<script>
-  function openMenu() {
-    var x = document.getElementById("links");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-
-    var x = document.getElementById("hamburger-icon");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-
-    var x = document.getElementById("hamburger-close");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
-
-</script>
