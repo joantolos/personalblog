@@ -92,7 +92,7 @@
   .links a {
     display: block;
     color: #f2f2f2;
-    text-align: right;
+    text-align: center;
     padding: 14px 60px;
     text-decoration: none;
   }
@@ -103,6 +103,12 @@
   }
 
   @media screen and (max-width: 1000px) {
+
+    @keyframes expand {
+      0%{height:0px}
+      0%{height:0px}
+    }
+
     .bg {
       background-image: url("../img/joan2021_bg_small.png");
     }
@@ -138,6 +144,7 @@
 
     .links {
       display: none;
+      animation: expand 0.5s;
     }
   }
 </style>
