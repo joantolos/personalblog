@@ -75,7 +75,7 @@ nav a:hover {
     height: 100%;
     width: 100%;
     z-index: 99;
-    animation: expand 0.5s;
+    animation: expand 1s;
   }
 
   .links a {
@@ -84,7 +84,7 @@ nav a:hover {
     text-align: center;
     padding: 14px 60px;
     text-decoration: none;
-    animation: fadein 1s;
+    animation: fadein 1.5s;
   }
 
   .links a:hover {
