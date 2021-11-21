@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', Arial;
+    background: #f1f1f1;
+    margin: 0;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background: #ddd;
+    margin-top: 20px;
+}
