@@ -25,42 +25,6 @@
     width: 25%;
     background-color: #f1f1f1;
   }
-  
-  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 800px) {
-    .rightcolumn, .leftcolumn {   
-      width: 100%;
-      padding: 0;
-    }
-    article {
-      background-color: white;
-      padding: 20px;
-      margin: 0px 20px 0px 0px;
-      /*margin: top right bottom left*/
-      border-top-left-radius: 0px;
-      border-top-right-radius: 0px;
-	    border-bottom-left-radius: 0px;
-      border-bottom-right-radius: 0px;
-    }
-  }
-  
-  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-  @media screen and (max-width: 400px) {
-    .nav a {
-      float: none;
-      width: 100%;
-    }
-    article {
-      background-color: white;
-      padding: 20px;
-      margin: 0px 20px 0px 0px;
-      /*margin: top right bottom left*/
-      border-top-left-radius: 0px;
-      border-top-right-radius: 0px;
-	    border-bottom-left-radius: 0px;
-      border-bottom-right-radius: 0px;
-    }
-  }
 
   content {
     margin: 100;
@@ -84,6 +48,12 @@
     border-top-right-radius: 7px;
 	  border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
+  }
+
+    /* Add a card effect for articles */
+  .lean-article {
+    margin: 20px 20px 0px 0px;
+    /*margin: top right bottom left*/
   }
   
   /* Clear floats after the columns */
@@ -121,6 +91,24 @@
     background-image: url(../img/overridePolymorphism/pic01.png);
     display: block;
     background-size: cover;
+  }
+
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 1000px) {
+    .rightcolumn, .leftcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+    article {
+      background-color: white;
+      padding: 20px;
+      margin: 20px 0px 20px 0px;
+      /*margin: top right bottom left*/
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+	    border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+    }
   }
 </style>
 <body>
@@ -183,17 +171,17 @@
           </article>
         </div>
         <div class="rightcolumn">
-          <article>
+          <article class="lean-article">
             <h2>About Me</h2>
             <img class="profile" src="img/profile2021.png">
           </article>
-          <article>
+          <article class="lean-article">
             <h2>Popular Posts</h3>
             <div class="fakeimg"><p>Image</p></div>
             <div class="fakeimg"><p>Image</p></div>
             <div class="fakeimg"><p>Image</p></div>
           </article>
-          <article>
+          <article class="lean-article">
             <h2>Follow Me</h3>
             <a href="#" class="fa fa-twitter"></a>
             <a href="#" class="fa fa-linkedin"></a>
