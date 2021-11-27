@@ -4,9 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Joan Tolós</title>
+  <link rel="shortcut icon" href="/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script type="text/javascript" src="/scripts/menu.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/4ed8b0c0a9.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comforter+Brush">
   <link rel="stylesheet" href="/styles/menu.css">
@@ -33,7 +34,6 @@
   }
 
   footer {
-    padding: 20px;
     background: #ddd;
   }
 
@@ -52,6 +52,11 @@
     text-align: left;
     line-height: 30px;
     font-size: 20px;
+  }
+
+  main {
+    background-color: #333;
+    color: #ddd;
   }
 
   @media screen and (max-width: 1000px) {
@@ -90,8 +95,8 @@
 
   <nav class="hamburger">
     <a href="javascript:void(0);" class="icon" onclick="openHamburguerMenu()">
-      <i id = "hamburger-icon" style="text-align: right; display: block" class="fa fa-bars"></i>
-      <i id = "hamburger-close" style="text-align: right; display: none" class="fa fa-times"></i>
+      <i id = "hamburger-icon" style="text-align: right; display: block" class="fas fa-bars"></i>
+      <i id = "hamburger-close" style="text-align: right; display: none" class="fas fa-times"></i>
     </a>
   </nav>
 
@@ -109,8 +114,17 @@
       latest blog post or podcast episode.</div>
   </div>
 
+  <main>
+    <ul>
+      <li class="fas fa-blog">This is my blog</li>
+      <li class="fas fa-podcast">This is my podcast</li>
+      <li class="fas fa-address-card">This is me</li>
+      <li class="fas fa-file-signature">This is how you contact me</li>
+    </ul>
+  </main>
+
   <footer>
-    <p>copyright &copy; 2021 Joan Tolós. All rights reserved.</p>
+    copyright &copy; 2021 Joan Tolós. All rights reserved.
   </footer>
 
 </body>
