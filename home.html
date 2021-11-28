@@ -10,7 +10,6 @@
   <script src="https://kit.fontawesome.com/4ed8b0c0a9.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comforter+Brush">
-  <link rel="stylesheet" href="/styles/site.css">
 </head>
 
 <style>
@@ -88,10 +87,41 @@
     display: none;
   }
 
-  ul > li {
+  main {
+    padding-top: 5%;
+  }
+
+  ul {
     list-style-type: none;
+    padding-left: 0;
+  }
+
+  ul > li {
     text-align: center;
     padding-bottom: 3%;
+  }
+
+  ul > li > p {
+    padding-top: 5%;
+    padding-bottom: 2%;
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+
+  .fa-blog,
+  .fa-podcast,
+  .fa-address-card,
+  .fa-file-signature {
+    border-radius: 50%;
+    padding: 50px;
+		border: 1px solid #ddd;
+		background-color: #ddd;
+		color: #333;
+  }
+
+  footer {
+    padding: 20px;
+    background: #ddd;
   }
 
   @media screen and (max-width: 1000px) {
@@ -102,7 +132,7 @@
     .title {
       padding-top: 5%;
       padding-left: 0;
-      padding-bottom: 0;
+      padding-bottom: 5%;
       text-align: center;
       font-family: 'Comforter Brush';
       font-size: 60px;
@@ -111,7 +141,7 @@
     .subtitle {
       padding-left: 15%;
       padding-right: 10%;
-      text-align: left;
+      text-align: center;
       line-height: 30px;
       font-size: 15px;
     }
@@ -218,19 +248,19 @@
   <main>
     <ul>
       <li>
-        <i class="fas fa-blog fa-7x"></i>
+        <span class="icon"><i class="fas fa-blog fa-7x" aria-hidden="true"></i></span>
         <p>This is my blog This is my blog This is my blog This is my blog This is my blog This is my blog This is my blog This is my blog This is my blog This is my blog This is my blog This is my blog</p>
       </li>
       <li>
-        <i class="fas fa-podcast fa-7x"></i>
+        <span><i class="fas fa-podcast fa-7x" aria-hidden="true"></i></span>
         <p>This is my podcast This is my podcast This is my podcast This is my podcast This is my podcast This is my podcast This is my podcast This is my podcast This is my podcast This is my podcast This is my podcast This is my podcast </p>
       </li>
       <li>
-        <i class="fas fa-address-card fa-7x"></i>
+        <span><i class="fas fa-address-card fa-7x" aria-hidden="true"></i></span>
         <p>This is me This is me This is me This is me This is me This is me This is me This is me This is me This is me This is me This is me This is me This is me This is me This is me This is me This is me This is me This is me </p>
       </li>
       <li>
-        <i class="fas fa-file-signature fa-7x"></i>
+        <span><i class="fas fa-file-signature fa-7x" aria-hidden="true"></i></span>
         <p>This is how you contact me This is how you contact me This is how you contact me This is how you contact me This is how you contact me This is how you contact me This is how you contact me This is how you contact me This is how you contact me </p>
       </li>
     </ul>
