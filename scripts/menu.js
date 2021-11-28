@@ -19,4 +19,5 @@ function openHamburguerMenu() {
   } else {
     x.style.display = "block";
   }
+
 }
