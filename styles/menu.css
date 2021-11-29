@@ -75,7 +75,7 @@ nav a:hover {
     height: 100%;
     width: 100%;
     z-index: 99;
-    animation: expand 1s;
+    animation: expand 0.5s;
   }
 
   .links a {
