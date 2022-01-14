@@ -2,49 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fac0e7f-372f-4ccd-9860-ba7ec575a021" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/single_page_seed_with_angular.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/single_page_seed_with_angular.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/angularCli/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/angularCli/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/angularCli/pic01.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/angularCli/pic01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/angularCli/tutorial.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/angularCli/tutorial.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/angularCli/welcome.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/angularCli/welcome.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bigO/arraySorting.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/bigO/arraySorting.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bigO/bigOsChart.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/bigO/bigOsChart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bigO/bigOsSorted.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/bigO/bigOsSorted.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bigO/binarySearch.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/bigO/binarySearch.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bigO/bubbleSort.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/bigO/bubbleSort.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bigO/cow.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/bigO/cow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bigO/dataStructure.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/bigO/dataStructure.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bigO/exponentialLineal.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/bigO/exponentialLineal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bigO/formalDefinition.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/bigO/formalDefinition.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bigO/formalDefinitionEN.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/bigO/formalDefinitionEN.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bigO/pic01.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/bigO/pic01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bigO/quickSort.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/bigO/quickSort.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/about.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/icons/about.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/blog.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/icons/blog.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/contact.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/icons/contact.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/podcast.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/icons/podcast.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/joan2021_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/joan2021_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/joan2021_bg_small.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/joan2021_bg_small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/kotlinRestAPI/pic01.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/kotlinRestAPI/pic01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/overridePolymorphism/classesDiagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/overridePolymorphism/classesDiagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/overridePolymorphism/classesDiagramTransparent.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/overridePolymorphism/classesDiagramTransparent.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/overridePolymorphism/pic01.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/overridePolymorphism/pic01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/profile2021.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/profile2021.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/restAPI/api.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/restAPI/api.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/restAPI/pic01.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/restAPI/pic01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/podcast.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/podcast.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +12,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="21jFkpy7Woe5TQR948k7sMp3WUf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -88,11 +50,24 @@
       <updated>1638446735419</updated>
       <workItem from="1638446739726" duration="13000" />
       <workItem from="1638446782941" duration="310000" />
+      <workItem from="1642168358062" duration="502000" />
+      <workItem from="1642171453447" duration="131000" />
+      <workItem from="1642171699534" duration="442000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
